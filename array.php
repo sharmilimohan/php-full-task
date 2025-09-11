@@ -69,8 +69,35 @@ print_r($student)."<br>";
 
 
 ?>
+<h1>For loop with array </h1>
+<?php
+
+$color=array("red","green","blue");
+for ($i=0;$i<count($color);$i++){
+    echo $color[$i]."<br>";
+}
 
 
+
+?>
+<h1>For each with array</h1>
+<?php
+
+$student=array("name"=>"john","age"=>20 ,"course"=>"PHP");
+foreach($student as $k =>$v){
+    echo $k.":" .$v. "<br>" ;
+}
+
+
+?>
+<?php
+
+$students=array("name"=>"sharmili","age"=>21,"course"=>"full stack course");
+foreach($students as $k =>$v){
+    echo $k. ":".$v. "<br>";
+}
+
+?>
 
 </body>
 </html>
