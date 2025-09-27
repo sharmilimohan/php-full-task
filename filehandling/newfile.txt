@@ -1,0 +1,2 @@
+Hello, World!
+This is PHP file handling example.
